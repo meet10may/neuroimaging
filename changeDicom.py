@@ -24,6 +24,7 @@ for root, dirs, files in os.walk(baseDir):
 		if x.endswith(".dcm"):
     			name =(os.path.join(root, x))
     			print name
+			dicomhdr(name)
     			
 
 
